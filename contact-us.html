@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Royal's Fried Chicken</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Bootstrap Carousel -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One%7COpen+Sans:300,400,600,700,800%7CUbuntu:300,400,500,700%7CDancing+Script:400,700"
+        rel="stylesheet">
+    <!-- CSS RESET -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- CSS STYLESHEET -->
+    <link rel="stylesheet" href="css/contact-us.css">
+    <!--JAVASCRIPT-->
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!-- Start of site-header-->
+    <div class="site-header">
+        <!--Start of order-->
+        <div class="order">
+            <p>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                214 - 859 - 3472
+                <span>call in order now!</span>
+            </p>
+        </div>
+        <!--End of order-->
+        <!--Start of social-media-->
+        <div class="social-media">
+            <p>like us: </p>
+            <a href="https://www.facebook.com/Royals-Fried-Chicken-1038137556225307/">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            </a>
+        </div>
+        <!--End of social-media-->
+    </div>
+    <!--End of site-header -->
+    <!--Start of header-->
+    <header>
+        <!--Start of container-->
+        <div class="container-fluid">
+            <!--Start of logo-->
+            <div class="logo">
+                <a href="index.html">
+                    <h2>Royal's Fried Chicken</h2>
+                </a>
+            </div>
+            <!--End of logo-->
+
+            <!--Start of nav-section-->
+            <div class="nav-section">
+                <div class="nav-icon">
+                    <a href="#" class="open-btn" onclick="openMenu()">&#9776;</a>
+                </div>
+                <!--Start of nav-->
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="our-story.html">Our Story</a>
+                    <a href="catering.html">Catering</a>
+                    <a href="contact-us.html" id="active">Contact Us</a>
+                </nav>
+                <!--End of nav-->
+
+            </div>
+            <!--End of nav-section-->
+
+
+        </div>
+        <!--End of container-->
+    </header>
+    <!--End of header-->
+    <!--Start of drop-menu-->
+    <div class="drop-menu" id="drop-menu">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="our-story.html">Our Story</a>
+            <a href="catering.html">Catering</a>
+            <a href="contact-us.html">Contact Us</a>
+        </div>
+        <!--End of drop-menu-->
+    <div class="main-bg">
+        <!--Start of main-->
+        <main>
+
+            <!--Start of container-->
+            <div class="container">
+
+                <h1>contact us</h1>
+                <h2>
+                    Let us know how we're doing!
+                </h2>
+                
+                <!--Start of form-->
+                <div class="form">
+                    <!--Start of contact-form-->
+                    <div class="contact-form">
+                        <!--Start of form-->
+                        <form name="Contact-Message" action="POST" data-netlify="true">
+                            <p>
+                                At Royal's Fried Chicken providing great customer service is our Top priority! Tell Us How We're Doing!
+                            </p>
+                            <!--Start of subject-->
+                            <div class="subject">
+                                <label for="subject">Subject<span id="required">*</span></label>
+                                <select name="subject" id="subject">
+                                    <option value="generalFeedback">General Feedback</option>
+                                    <option value="catering">Catering</option>
+                                    <option value="complaint">Complaint</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <!--End of subject-->
+                            <label for="name">Full Name<span id="required-name">*</span></label><br>
+                            <input type="text" name="name" id="name" placeholder="Enter Your Name Here"><br>
+                            <label for="email">Email<span id="required-email">*</span></label><br>
+                            <input type="email" name="email" id="email" placeholder="example@gmail.com"><br>
+                            <label for="phone">Phone Number<span id="required-number">*</span></label><br>
+                            <input type="tel" name="phone" id="phone" placeholder="(###)-###-####"><br>
+                            <label for="message">message<span id="required-message">*</span></label><br>
+                            <textarea name="message" id="message" cols="36" rows="4"></textarea><br>
+                            <!--Start of buttons-->
+                            <div class="buttons">
+                                <input type="submit" value="submit" id="submit" onclick="formValidation()">
+                                <input type="reset" value="reset" id="reset">
+                            </div>
+                            <!--End of buttons-->
+
+                        </form>
+                        <!--End of form-->
+                    </div>
+                    <!--End of contact-form-->
+                </div>
+                <!--End of form-->
+
+
+
+
+
+            </div>
+            <!--End of container-->
+        </main>
+        <!--End of main-->
+    </div>
+
+    <!--Start of footer-->
+    <footer>
+        <!--Start of container-->
+        <div class="container">
+            <!--Start of top-->
+            <div class="top">
+                <!--Start of logo-->
+                <div class="logo">
+                    <a href="index.html" id="logo">Royal's fried chicken</a>
+                    <!--Start of icons-->
+                    <div class="icons">
+                        <a href="https://www.facebook.com/Royals-Fried-Chicken-1038137556225307/">
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.yelp.com/biz/royals-fried-chicken-cedar-hill">
+                            <i class="fa fa-yelp" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://twitter.com">
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <!--End of icons-->
+                </div>
+                <!--End of logo-->
+                <!--Start of visit-->
+                <div class="visit">
+                    <h2>visit</h2>
+                    <a href="https://www.google.com/maps/place/Royal's+Fried+Chicken/@32.5874549,-96.9420809,15z/data=!4m5!3m4!1s0x0:0xff64463bd074c3b0!8m2!3d32.5874549!4d-96.9420809">
+                        <p>
+                            140 S. Clark Rd.<br>
+                            Cedar Hill, Tx 75104<br>
+                            214 - 859 - 3472
+                        </p>
+                    </a>
+                </div>
+                <!--End of visit-->
+                <!--Start of hours-->
+                <div class="hours">
+                    <h2>hours:</h2>
+                    <h3>sun - fri 11:30am - 9pm</h3>
+                    <h3 id="sat">sat 12am - 9pm</h3>
+                </div>
+                <!--End of hours-->
+            </div>
+            <!--End of top-->
+            <!--Start of bottom-->
+            <div class="bottom">
+                <p>
+                    &copy; 2019 Royal's Fried Chicken. All Rights Reserved.
+                </p>
+            </div>
+            <!--End of bottom-->
+        </div>
+        <!--End of container-->
+    </footer>
+    <!--End of footer-->
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+/* Desktop-Laptop */
+@media only screen and (max-width: 1024px) {
+    header .container-fluid nav {
+        display: none;
+    }
+
+    header .container-fluid .nav-icon {
+        display: block;
+    }
+    main .container{
+        padding: 45px 0 30px;
+    }
+    main .container h2{
+        font-size: 6vw;
+    }
+    main .container .form{
+        padding-top:30px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    main .container .form .contact-form{
+        padding: 18px;
+        font-size: 18px;
+    }
+
+}
+
+/*Tablet-Mobile*/
+@media only screen and (max-width: 768px) {
+
+    /* SITE_HEADER */
+    .site-header {
+        padding: 3px 20px;
+    }
+
+    /* HEADER */
+    header .container-fluid .logo h2 {
+        font-size: 32px;
+    }
+
+    header .container-fluid .nav-icon {
+        margin-top: 11px;
+    }
+
+    header .container-fluid .nav-section .nav-icon a {
+        font-size: 34px;
+    }
+
+    /* MAIN */
+    main .container {
+        padding: 35px 0 20px;
+    }
+    main .container h1 {
+        font-size: 38px;
+    }
+    
+    main .container .form{
+        padding-top:15px;
+        width: 80%;
+    }
+    main .container .form p{
+        font-size: 13px;
+        padding: 12px 0 20px;
+    }
+    main .container .form .contact-form form #submit, #reset{
+        margin: 0 20px;
+        width: 30%;
+        padding: 8px 0;
+    }
+
+    /* FOOTER */
+    footer{
+        background-image: url(../images/texturebg-1.jpg);
+        background-size: 100% 100%;
+        padding:5px 0 !important;
+    }
+    footer .container .top{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    /* HOURS */
+    footer .container .top .hours{
+        padding: 4px 0 4px;
+        
+    }
+    footer .container .top .hours h2{
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+    footer .container .top .hours h3{
+        padding-bottom: 6px;
+        width: 200px;
+        margin: 0 auto;
+    }
+    footer .container .top .hours #sat{
+        border-bottom: 1px solid white;
+    }
+    /* VISIT */
+    footer .container .top .visit{
+        padding: 4px 0 18px;
+        
+    }
+    footer .container .top .visit h2{
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+    footer .container .top .visit p{
+        line-height: 1.6;
+        border-bottom: 1px solid white;
+        width: 200px;
+        margin: 0 auto;
+    }
+    footer .container .top .logo .icons{
+        padding-top: 13px;
+    }
+    footer .container .bottom{
+        padding-top: 13px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .site-header .order{
+        text-align: center;
+        width: 100%;
+    }
+    .site-header .social-media{
+        display: none;
+    }
+    .drop-menu{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+    .drop-menu a{
+        font-size: 4vw;
+        background: #A8020C;
+        margin: 0;
+        padding: 4px 0;
+        border: .6px outset gold;
+    }
+    .drop-menu a:hover{
+        background: rgb(65, 2, 3, .7);
+        border: 1px inset gold;
+    }
+}

@@ -1,0 +1,199 @@
+/* Desktop-Laptop */
+@media only screen and (max-width: 1024px) {
+    header .container-fluid nav {
+        display: none;
+    }
+
+    header .container-fluid .nav-icon {
+        display: block;
+    }
+    main .container {
+        padding: 45px 0 40px;
+    }
+    main .container #chicken, #fish, #tenders-wings, #sides-extras, #drinks-deserts{
+        font-size: 2.3vw;
+    }
+    
+    main .container #menu-title{
+        padding-bottom: 40px;
+    }
+    main .container #chicken #specials{
+        font-size: 2.8vw;
+    }
+    main .container #chicken h1{
+        font-size: 5vw;
+    }
+    main .container #chicken #chicken-only{
+        font-size: 2vw;
+    }
+    main .container #chicken .items #sub-title-dark, #sub-title-mix, #sub-title-white, #sub-title-single{
+        font-size: 2.3vw;
+    }
+    main .container #chicken #singles h3{
+        font-size: 2.3vw;
+    }
+    main .container #chicken #request{
+        font-size: 2vw;
+    }
+    main .container #fish h1{
+        font-size: 5vw;
+    }
+    main .container #fish .items #sub-title-steaks, #sub-title-fillets, #sub-title-buffalo{
+        font-size: 2.3vw;
+    }
+    main .container #fish #nuggets h3{
+        font-size: 2.3vw;
+    }
+    main .container #tenders-wings h1{
+        font-size: 5vw;
+    }
+    main .container #tenders-wings .items #sub-title-tenders, #sub-title-wings{
+        font-size: 2.3vw;
+    }
+    
+    main .container #fish #all-orders-fish{
+        font-size: 2vw;
+    }
+    main .container #tenders-wings #all-orders-tenders-wings{
+        font-size: 2vw;
+    }
+    main .container #sides-extras h1{
+        font-size: 5vw;
+    }
+    main .container #sides-extras #extras{
+        font-size: 2.2vw;
+        width: 83%;
+    }
+    main .container #sides-extras .items #fries #sub-title-fries{
+        font-size: 2.8vw;
+    }
+    main .container #sides-extras .items #hushpuppies #sub-title-hushpuppies{
+        font-size: 2.8vw;
+    }main .container #sides-extras .items #okra #sub-title-okra{
+        font-size: 2.8vw;
+    }
+    main .container #drinks-deserts h1{
+        font-size: 5vw;
+    }
+    main .container #drinks-deserts .items #sub-title-drinks, #sub-title-deserts{
+        font-size: 2.3vw;
+    }
+
+}
+
+
+/*Tablet-Mobile*/
+@media only screen and (max-width: 768px) {
+
+    /* SITE_HEADER */
+    .site-header {
+        padding: 3px 20px;
+    }
+
+    /* HEADER */
+    header .container-fluid .logo h2 {
+        font-size: 32px;
+    }
+
+    header .container-fluid .nav-icon {
+        margin-top: 11px;
+    }
+
+    header .container-fluid .nav-section .nav-icon a {
+        font-size: 34px;
+    }
+
+    /* MAIN */
+    main .container {
+        width: 80%;
+        padding: 35px 0 30px;
+    }
+
+    main .container h1 {
+        font-size: 38px;
+    }
+    main .container #menu-title{
+        padding-bottom: 30px;
+    }
+    main .container #sides-extras #okra{
+        margin-bottom: -3%;
+    }
+
+    /* FOOTER */
+    footer{
+        background-image: url(../images/texturebg-1.jpg);
+        background-size: 100% 100%;
+        padding:5px 0 !important;
+    }
+    footer .container .top{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    /* HOURS */
+    footer .container .top .hours{
+        padding: 4px 0 4px;
+        
+    }
+    footer .container .top .hours h2{
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+    footer .container .top .hours h3{
+        padding-bottom: 6px;
+        width: 200px;
+        margin: 0 auto;
+    }
+    footer .container .top .hours #sat{
+        border-bottom: 1px solid white;
+    }
+    /* VISIT */
+    footer .container .top .visit{
+        padding: 4px 0 18px;
+        
+    }
+    footer .container .top .visit h2{
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+    footer .container .top .visit p{
+        line-height: 1.6;
+        border-bottom: 1px solid white;
+        width: 200px;
+        margin: 0 auto;
+    }
+    footer .container .top .logo .icons{
+        padding-top: 13px;
+    }
+    footer .container .bottom{
+        padding-top: 13px;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .site-header .order{
+        text-align: center;
+        width: 100%;
+    }
+    .site-header .social-media{
+        display: none;
+    }
+    .drop-menu{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+    .drop-menu a{
+        font-size: 4vw;
+        background: #A8020C;
+        margin: 0;
+        padding: 4px 0;
+        border: .6px outset gold;
+    }
+    .drop-menu a:hover{
+        background: rgb(65, 2, 3, .7);
+        border: 1px inset gold;
+    }
+}

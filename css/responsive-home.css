@@ -1,0 +1,366 @@
+
+@media only screen and (max-width: 1024px){
+    header .container-fluid  nav{
+        display: none;
+    }
+    header .container-fluid  .nav-icon{
+        display: block;
+    }
+    /*CAROUSEL*/
+    /* slide 1 */
+    main #myCarousel #slide-1{
+        padding-top: 62px;
+    }
+    main #myCarousel #slide-1 h3{
+        font-size: 50px;
+    }
+    main #myCarousel #slide-1 h1{
+        font-size: 130px;
+    }
+    /* slide 2 */
+    main #myCarousel #slide-2 .row{
+        width: 80%;
+        padding-top: 40px;
+    }
+    main #myCarousel #slide-2 .row .col-md-4 .container{
+        width: 200px;
+        margin: 0 auto;
+    }
+    main #myCarousel #slide-2 .row .col-md-4 .container h4{
+        font-size: 40px;
+    }
+
+    main #myCarousel #slide-2 .row .col-md-4 .container span{
+        font-size: 26px;
+    }
+    main #myCarousel #slide-2 .row .col-md-4 .container h1{
+        font-size: 50px;
+    }
+    main #myCarousel #slide-2 .row .col-md-4 .container h6{
+        font-size: 5px;
+    }
+    main #myCarousel #slide-2 h3{
+        font-size: 28px;
+    }
+    /* slide 3 */
+    main #myCarousel #slide-3 .container{
+        max-width: 80%;
+    }
+    main #myCarousel #slide-3 .container h2{
+        width: 154px;
+        font-size: 15px;
+    }
+    main #myCarousel #slide-3 .container #carousel-item{
+        font-size: 52px;
+    }
+    main #myCarousel #slide-3 .container h5{
+        font-size: 12px;
+    }
+    main #myCarousel #slide-3 .container #price{
+        font-size: 110px;
+        padding-top: 60px;
+        text-align: right;
+    }
+    main #myCarousel #slide-3 .container span{
+        font-size: 6px;
+    }
+    /* slide 4 */
+    main #myCarousel #slide-4 .container{
+        padding-top: 172px; 
+        margin: 0 auto;
+        width: 90%;
+    }
+    main #myCarousel #slide-4 .container p{
+        font-size: 38px;
+        padding-bottom: 54px;
+    }
+    main #myCarousel #slide-4 .container a{
+        text-transform: uppercase;
+        color: white;
+        font-size: 15px;
+    }
+    /* BEST */
+    main .best .container #p1{
+        font-size: 28px;
+    }
+    main .best .container #p2{
+        font-size: 25px;
+        padding: 26px 0;
+    }
+    main .best .container #p3{
+        font-size: 30px;
+        padding-bottom: 22px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    main .best .container #p4{
+        font-size: 28px;
+        padding: 28px 0 0;
+    }
+    /* FOOD-MENU */
+    
+   
+    main .food-menu .container-fluid .categories{
+        font-size: 20px;
+    }
+    main .food-menu .container-fluid .categories img{
+        height: 180px;
+        width:220px;
+    }
+    main .food-menu .container-fluid .categories img:hover{
+        height: 184px;
+        width:224px;
+    }
+}  
+
+
+/*TABLET-Mobile*/
+@media only screen and (max-width: 768px){
+    /* SITE_HEADER */
+    .site-header{
+        padding: 3px 20px;
+    }
+
+    /* HEADER */
+    header .container-fluid .logo h2{
+        font-size: 32px;
+    }
+    header .container-fluid  .nav-icon{
+        margin-top: 11px;
+    }
+    header .container-fluid .nav-section .nav-icon a{
+        font-size: 34px;
+    }
+
+    /*CAROUSEL*/
+    /* slide 1 */
+    main #myCarousel #slide-1{
+        padding-top: 50px;
+        height: 300px;
+    }
+    main #myCarousel #slide-1 h3{
+        font-size: 40px;
+    }
+    main #myCarousel #slide-1 h1{
+        font-size: 80px;
+    }
+    /* slide 2 */
+    main #myCarousel #slide-2{
+        height: 300px;
+    }
+    main #myCarousel #slide-2 .row{
+        width: 80%;
+        padding-top: 40px;
+    }
+    main #myCarousel #slide-2 .row .col-md-4{
+        width: 33.33%;
+        padding: 0;
+        margin: 0;
+    }
+    main #myCarousel #slide-2 .row .col-md-4 .container{
+        width: 130px;
+    }
+    main #myCarousel #slide-2 .row .col-md-4 .container h4{
+        font-size: 28px;
+    }
+
+    main #myCarousel #slide-2 .row .col-md-4 .container span{
+        font-size: 16px;
+    }
+    main #myCarousel #slide-2 .row .col-md-4 .container h1{
+        font-size: 28px;
+    }
+    main #myCarousel #slide-2 .row .col-md-4 .container h6{
+        position: absolute;
+        left:87px;
+        margin-right: -20px;
+    }
+    main #myCarousel #slide-2 h3{
+        font-size: 18px;
+    } 
+    /* slide 3 */
+    main #myCarousel #slide-3{
+        height: 300px;
+    }
+    main #myCarousel #slide-3 .container{
+        max-width: 80%;
+        padding-top: 40px;
+    }
+    main #myCarousel #slide-3 .container h2{
+        width: 126px;
+        font-size: 12px;
+    }
+    main #myCarousel #slide-3 .container #carousel-item{
+        font-size: 42px;
+        padding-top: 10px;
+    }
+    main #myCarousel #slide-3 .container h5{
+        font-size: 8px;
+    }
+    main #myCarousel #slide-3 .container #price{
+        font-size: 70px;
+        padding-top: 30px;
+        text-align: right;
+    }
+    main #myCarousel #slide-3 .container span{
+        font-size: 6px;
+    }
+    /* slide 4 */
+    main #myCarousel #slide-4{
+        height: 300px;
+    }
+    main #myCarousel #slide-4 .container{
+        padding-top: 130px; 
+        margin: 0 auto;
+        width: 100%;
+    }
+    main #myCarousel #slide-4 .container p{
+        font-size: 24px;
+    }
+    main #myCarousel #slide-4 .container a{
+        font-size: 12px;
+        padding: 16px;
+    }
+
+    /* BEST */
+    main .best{
+        margin-top: 14px;
+    }
+    main .best .container{
+        text-align: center;
+        padding: 19px 0 20px;
+    }
+    main .best .container #p1{
+        font-size: 18px;
+    }
+    main .best .container #p2{
+        font-size: 18px;
+        padding: 13px 0;
+    }
+    main .best .container #p3{
+        padding-bottom: 10px;
+    }
+    main .best .container #p4{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    /* LG_IMG-1 */
+    main .lg-img-1{
+        height: 290px;
+        margin-top: 16px;
+    }
+
+
+    /* FOOD_MENU */
+    main .food-menu .container-fluid{
+        padding: 15px 0;
+    }
+    main .food-menu .container-fluid h3{
+        font-size: 5.2vw;
+    }
+    main .food-menu .container-fluid a{
+        font-size: 8vw !important;
+    }
+    main .food-menu .container-fluid .categories #menu-row{
+        display: block;
+        padding: 14px 0 0;
+        margin-top: 15px;
+    }
+    main .food-menu .container-fluid .categories .bottom{
+        padding: 0 !important;
+        margin-top: 0 !important;
+    }
+    main .food-menu .container-fluid .categories img{
+        width: 40%;
+    }
+    main .food-menu .container-fluid .categories img:hover{
+        width: 40%;
+        height: 180px;
+    }
+    main .food-menu .container-fluid .categories h1{
+        font-size: 3.6vw;
+        padding: 4px 0 20px;
+    }
+
+    /* LG_IMG-2 */
+    main .lg-img-2{
+        height: 290px;
+    }
+
+    /* FOOTER */
+    footer{
+        background-image: url(../images/texturebg-1.jpg);
+        background-size: 100% 100%;
+        padding:5px 0 !important;
+    }
+    footer .container .top{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    /* HOURS */
+    footer .container .top .hours{
+        padding: 4px 0 4px;
+        
+    }
+    footer .container .top .hours h2{
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+    footer .container .top .hours h3{
+        padding-bottom: 6px;
+        width: 200px;
+        margin: 0 auto;
+    }
+    footer .container .top .hours #sat{
+        border-bottom: 1px solid white;
+    }
+    /* VISIT */
+    footer .container .top .visit{
+        padding: 4px 0 18px;
+        
+    }
+    footer .container .top .visit h2{
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+    footer .container .top .visit p{
+        line-height: 1.6;
+        border-bottom: 1px solid white;
+        width: 200px;
+        margin: 0 auto;
+    }
+    footer .container .top .logo .icons{
+        padding-top: 13px;
+    }
+    footer .container .bottom{
+        padding-top: 13px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .site-header .order{
+        text-align: center;
+        width: 100%;
+    }
+    .site-header .social-media{
+        display: none;
+    }
+    .drop-menu{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+    .drop-menu a{
+        font-size: 4vw;
+        background: #A8020C;
+        margin: 0;
+        padding: 4px 0;
+        border: .6px outset gold;
+    }
+    .drop-menu a:hover{
+        background: rgb(65, 2, 3, .7);
+        border: 1px inset gold;
+    }
+}
