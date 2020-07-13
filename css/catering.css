@@ -471,6 +471,7 @@ footer .container .bottom a {
     /* SITE_HEADER */
     .site-header {
         padding: 3px 20px;
+        display: none;
     }
 
     /* HEADER */
