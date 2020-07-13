@@ -1,6 +1,6 @@
 /* BODY */
 body {
-    background-image: url(../images/texturebg-1.jpg);
+    background-image: url(../images/compressed/texturebg-1.jpg);
     /* background-size: 100% 100%;  */
 }
 
@@ -162,7 +162,7 @@ header .container-fluid nav #active {
 
 /* MAIN */
 main {
-    background-image: url(../images/texturebg-1.jpg);
+    background-image: url(../images/compressed/texturebg-1.jpg);
     background-size: 100% 100%;
 }
 
@@ -172,7 +172,7 @@ main #myCarousel {
 }
 
 main #myCarousel #slide-1 {
-    background-image: url(../images/chicken-slide1.jpg);
+    background-image: url(../images/compressed/chicken-slide1.jpg);
     height: 450px;
     background-size: 100% 100%;
     padding-top: 40px;
@@ -200,7 +200,7 @@ main #myCarousel #slide-1 h1 {
 }
 
 main #myCarousel #slide-2 {
-    background-image: url(../images/chicken-slide2.jpg);
+    background-image: url(../images/compressed/chicken-slide2.jpg);
     background-size: 100% 100%;
     height: 450px;
     text-align: center;
@@ -224,7 +224,7 @@ main #myCarousel #slide-2 .row .col-md-4 .container {
     opacity: .9;
     border-radius: 10px;
     padding: 6px 0 30px 0;
-    background-image: url(../images/texturebg-1.jpg);
+    background-image: url(../images/compressed/texturebg-1.jpg);
     background-size: 100% 100%;
     line-height: 1.2;
 }
@@ -263,7 +263,7 @@ main #myCarousel #slide-2 h3 {
 }
 
 main #myCarousel #slide-3 {
-    background-image: url(../images/fish-slide.jpg);
+    background-image: url(../images/compressed/fish-slide.jpg);
     background-size: 100% 100%;
     height: 450px;
 }
@@ -327,7 +327,7 @@ main #myCarousel #slide-3 .container span {
 }
 
 main #myCarousel #slide-4 {
-    background-image: url(../images/catering-slide.jpg);
+    background-image: url(../images/compressed/catering-slide.jpg);
     background-size: 100% 100%;
     height: 450px;
 }
@@ -346,7 +346,7 @@ main #myCarousel #slide-4 .container p {
 }
 
 main #myCarousel #slide-4 .container a {
-    background-image: url(../images/texturebg-1.jpg);
+    background-image: url(../images/compressed/texturebg-1.jpg);
     background-size: 100% 100%;
     -webkit-box-shadow: 0px 2px 8px 0px black;
     -moz-box-shadow: 0px 2px 8px 0px black;
@@ -424,7 +424,7 @@ main .best .container #p4 {
 main .lg-img-1 {
     margin-top: 32px;
     height: 350px;
-    background-image: url(../images/lg-chicken-2.png);
+    background-image: url(../images/compressed/lg-chicken-2.png);
     background-size: 100% 100%;
 }
 
@@ -435,7 +435,7 @@ main .lg-img-1 img {
 
 /* MAIN -> FOOD-MENU */
 main .food-menu {
-    background-image: url(../images/texturebg-2.jpg);
+    background-image: url(../images/compressed/texturebg-2.jpg);
     background-size: 100% 100%;
 }
 
@@ -511,7 +511,7 @@ main .food-menu .container-fluid .categories .bottom {
 
 /* MAIN -> LG_IMG-2 */
 main .lg-img-2 {
-    background-image: url(../images/lg-chicken-1.jpg);
+    background-image: url(../images/compressed/lg-chicken-1.jpg);
     background-size: 100% 100%;
     height: 360px;
 }
@@ -987,7 +987,7 @@ footer .container .bottom a {
 
     /* FOOTER */
     footer {
-        background-image: url(../images/texturebg-1.jpg);
+        background-image: url(../images/compressed/texturebg-1.jpg);
         background-size: 100% 100%;
         padding: 5px 0 !important;
     }

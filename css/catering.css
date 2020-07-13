@@ -2,7 +2,7 @@
 
 /* BODY */
 body {
-    background-image: url(../images/texturebg-1.jpg);
+    background-image: url(../images/compressed/texturebg-1.jpg);
     background-size: 100% 100%;
 }
 
@@ -147,7 +147,7 @@ header .container-fluid nav #active {
 /*CONTENT*/
 
 main {
-    background-image: url(../images/texturebg-2.jpg);
+    background-image: url(../images/compressed/texturebg-2.jpg);
     background-size: 100% 100%;
     text-align: center;
 }
@@ -244,7 +244,7 @@ main .btm-ad{
     flex-direction: row;
 }
 main .btm-ad .try-pack{
-    background-image: url(../images/try-pack-bg.jpg);
+    background-image: url(../images/compressed/try-pack-bg.jpg);
     background-size: 100% 100%;
     width: 50%;
 }
@@ -283,7 +283,7 @@ main .btm-ad .try-pack h4{
 }
 main .btm-ad .pack-img{
     width: 50%;
-    background-image: url(../images/catering-bg.png);
+    background-image: url(../images/compressed/catering-bg.png);
     background-size: 100% 100%;
 }
 
@@ -573,7 +573,7 @@ footer .container .bottom a {
 
     /* FOOTER */
     footer{
-        background-image: url(../images/texturebg-1.jpg);
+        background-image: url(../images/compressed/texturebg-1.jpg);
         background-size: 100% 100%;
         padding:5px 0 !important;
     }
